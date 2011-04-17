@@ -1,0 +1,14 @@
+﻿@model Messages.Commands.CreateEvent
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+@using (Html.BeginForm()) { 
+    @Html.HiddenFor(m=>m.EventId)
+
+    <div>Name:</div>
+    <div>@Html.TextBoxFor(m=>m.Name)</div>
+    
+    <input type="submit" value="create" />
+}
