@@ -15,3 +15,7 @@ For DDD style semantics
 [EventStore](https://github.com/joliver/EventStore)
 --------------
 A very configurable Event Store.
+
+To Run this Project
+======
+Just change your settings in Azure/ServiceConfiguration.cscfg and press F5.
